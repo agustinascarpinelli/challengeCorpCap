@@ -1,0 +1,60 @@
+.itemDescription {
+  font-size: 0.7rem;
+  text-align: center;
+  font-weight: 300;
+  line-height: 0.82rem;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.itemName {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  padding-left: 0rem;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: flex-start;
+}
+
+.price {
+  background-color: var(--background);
+  height: 15.4rem;
+  width: 16.4rem;
+
+  border-radius: 0.6rem;
+  top: 17.6rem;
+  left: 0.6rem;
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  padding-left: 0.7rem;
+}
+
+.price .total > * {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.total > p {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  width: 14.5rem;
+  height: 1.5rem;
+}
+
+.total > h6 {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  width: 14.5rem;
+  height: 2.15rem;
+}
+
+@media (max-width: 414px) {
+  .price {
+    top: 16rem;
+    left: 4rem;
+  }
+}

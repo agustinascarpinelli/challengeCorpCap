@@ -1,38 +1,64 @@
+:root {
+  --grey: rgba(229, 229, 229, 1);
+  --background: #e5e5e5;
+  --black: rgba(54, 53, 55, 1);
+  --white: rgba(221, 225, 228, 1);
+  --orange: rgba(239, 131, 84, 1);
+  --yellow: rgba(254, 215, 102, 1);
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+body {
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(54, 53, 55, 0.64) 0%,
+    rgba(84, 109, 239, 0.86) 86%
+  );
+  color: var(--black);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.container {
+  text-align: center;
+  width: 45.2rem;
+  height: 33.5rem;
+  background-color: var(--grey);
+  border-radius: 1.25rem;
+
+  position: absolute;
+}
+
+.button {
+  background-color: #546def;
+  text-transform: uppercase;
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  font-size: 1.5rem;
+  border-radius: 0.6rem;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  margin-top: 2.55rem;
+  margin-left: 1.7rem;
+}
+
+@media (max-width: 414px) {
+  .container {
+    width: 24rem;
+    height: 60rem;
+    left: 0.9rem;
+    top: 0.9rem;
   }
 }

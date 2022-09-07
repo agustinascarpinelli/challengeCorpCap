@@ -1,0 +1,74 @@
+.payform {
+  width: 22.3rem;
+  height: 24.6rem;
+  position: absolute;
+  left: 18.3rem;
+  top: 4.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form > input {
+  background-color: transparent;
+  border: none;
+  border-color: none;
+  background-color: none;
+}
+
+.logo {
+  width: 3.65rem;
+  height: 2.2rem;
+}
+
+.cardInp {
+  display: flex;
+  flex-direction: row;
+  width: 22.3rem;
+  height: 3.2rem;
+  background-color: var(--grey);
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.6rem;
+  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-top: 0.7rem;
+}
+.labelInp {
+  margin-top: 1.75rem;
+}
+.cardInp > input {
+  background-color: transparent;
+  border: none;
+  border-color: none;
+  background-color: none;
+  margin-top: 0.75rem;
+  margin-bottom: 1.15rem;
+  margin-left: 0.55rem;
+  width: 14rem;
+  outline: none;
+}
+
+.button {
+  width: 18.9rem;
+  height: 3rem;
+}
+
+.error {
+  font-weight: bold;
+  color: var(--orange);
+}
+
+@media (max-width: 414px) {
+  .payform {
+    top: 34rem;
+    left: 1rem;
+  }
+}
+
+.alert {
+  font-family: "Poppins";
+}

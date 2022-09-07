@@ -1,0 +1,10 @@
+.warning > p {
+  width: 18.5rem;
+  height: 3rem;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  left: 13.5rem;
+  top: 12.5rem;
+}

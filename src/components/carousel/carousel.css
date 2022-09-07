@@ -1,0 +1,30 @@
+.carouselItem > img {
+  width: 12rem;
+  height: 10.8rem;
+}
+
+.divCarousel {
+  width: 13.1rem;
+  height: 13.1rem;
+  background-color: #ffffff;
+  border-radius: 0.6rem;
+  top: 2.1rem;
+  left: 4.6rem;
+  position: absolute;
+}
+.carouselIndicators {
+  position: absolute;
+  top: 11rem;
+}
+
+.carouselIndicators > button {
+  width: 0.8rem !important;
+  height: 0.8rem !important;
+  border-radius: 50%;
+  background-color: var(--orange) !important;
+}
+@media (max-width: 414px) {
+  .carousel {
+    left: 5.2rem;
+  }
+}
